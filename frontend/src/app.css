@@ -1,0 +1,44 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;;
+}
+
+div {
+  padding: 1rem;
+}
+
+/* Unvisited link */
+a:link {
+  color: blue;
+  /* text-decoration: underline; */
+}
+
+/* Visited link */
+a:visited {
+  color: purple;
+  text-decoration: underline;
+}
+
+/* Mouse over link */
+a:hover {
+  font-weight: 500;
+  text-decoration: none;
+}
+
+/* Selected link */
+a:active {
+  color: blue;
+  text-decoration: underline;
+}
+
+li {
+  list-style: inside;
+  padding-left: 0.5rem;
+}
